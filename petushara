@@ -1,0 +1,37 @@
+<header><nav>
+<a href="">Контакты</a>
+<a href="">тык</a>
+<a href="">тык тык</a>
+<br><br><br><br><br><br>
+<a class="b" href="">Войти в gym</a>
+</nav></header>
+
+<style>
+nav{
+padding:50px 0 50px 0;
+background:red;
+}
+.b{
+padding:20px;
+border: solid 5px  gold;
+margin:0 30px 0 300px;
+background-color:black;
+border-radius: 50px;
+color:firebrick;
+text-decoration:none;
+font-size:50px;
+border
+}
+nav a{
+padding:20px;
+border: solid 5px  midnightblue;
+
+margin:0 30px 0 130px;
+background-color:black;
+color:lightsalmon;
+text-decoration:none;
+border
+}
+body
+
+</style>
