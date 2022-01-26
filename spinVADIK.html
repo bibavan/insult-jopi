@@ -1,17 +1,32 @@
-
-<img src="https://sun9-38.userapi.com/impg/GNdJjBgqdAbBkRuge7oHg6F9Z_Jql8rZKjpUwA/-ls8aMe5zu8.jpg?size=1066x1600&quality=96&sign=2d566fbe692f0988aceae9eaf0da27f7&type=album;"  class="vadik di" align="center" width=500px height=500px>
+<img src="https://sun9-38.userapi.com/impg/GNdJjBgqdAbBkRuge7oHg6F9Z_Jql8rZKjpUwA/-ls8aMe5zu8.jpg?size=1066x1600&quality=96&sign=2d566fbe692f0988aceae9eaf0da27f7&type=album;"  class="rot">
 <style>
 
-.vadik{animation-iteration-count:infinite;
-animation-duration:0.002s;
-transform-origin:bottom;
+img.rot {
 
- }
-.di{animation-name:di;
-animation-timing-function:0.002s}
-@keyframes di {
-0% {transform: rotate(0deg);}
-
-100% {transform: rotate(360deg);}
+  -webkit-animation: 1.1333s linear 0s normal none infinite running rot;
+  -webkit-animation: 3s linear 0s normal none infinite running dot;
+  width: 500px;
+  border-radius:500px;
+  height:500px 
 }
+@-webkit-keyframes rot {
+  0% {
+    transform: rotate(0deg) translate(0px, 0px);
+  }
+ 50% {transform: rotate(180deg) translate(0, 0);
+  }
+  100% {
+    transform: rotate(360deg) translate(0px, 0px);
+  }
+}
+@-webkit-keyframes dot {
+  0% {
+    transform:  translate(0px, 0px);
+  }
+ 50% {transform:  translate(200px, 0);
+  }
+  100% {
+    transform:  translate(0px, 0px);
+  }
 </style>
+
