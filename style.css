@@ -35,9 +35,8 @@ border-radius: 50px;
 color:firebrick;
 text-decoration:none;
 transition:1s ;
-    font-size:75px;
-display:flex;
-justify-content:space-around;
+font-size:75px;
+
 }
 nav a{
 padding:10px;
@@ -60,4 +59,3 @@ color:lightsalmon;
 text-decoration:none;
 transition:0.5s ;
 }
-
